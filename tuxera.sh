@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Stopping Tuxera..."
 pkill -f "tuxera" 2>/dev/null || true
 
